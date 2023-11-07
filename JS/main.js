@@ -168,7 +168,7 @@ function endGame() {
   span.appendChild(randomV);
   let img = document.createElement("img");
   img.className = "remDead";
-  img.src = "../imgs/remdead.jpg";
+  img.src = "imgs/remdead.jpg";
   let againDiv = document.createElement("div");
   let againDivText = document.createTextNode("Play Again");
   againDiv.appendChild(againDivText);
@@ -201,7 +201,7 @@ function win() {
   span.appendChild(randomV);
   let img = document.createElement("img");
   img.className = "remDead";
-  img.src = "../imgs/ream.gif";
+  img.src = "imgs/ream.gif";
   let againDiv = document.createElement("div");
   let againDivText = document.createTextNode("Play Again");
   againDiv.appendChild(againDivText);
